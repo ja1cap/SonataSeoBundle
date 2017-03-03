@@ -1,5 +1,5 @@
 {
-    "name": "sonata-project/seo-bundle",
+    "name": "weasty/sonata-seo-bundle",
     "type": "symfony-bundle",
     "description": "Symfony SonataSeoBundle",
     "keywords": ["seo", "sonata"],
