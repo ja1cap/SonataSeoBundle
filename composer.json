@@ -14,6 +14,11 @@
         {
             "name": "Sonata Community",
             "homepage": "https://github.com/sonata-project/SonataSeoBundle/contributors"
+        },
+        {
+            "name": "ja1cap",
+            "email": "ja1cap@weasty.com",
+            "homepage": "https://www.weasty.com"
         }
     ],
     "require": {
