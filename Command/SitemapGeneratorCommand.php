@@ -58,7 +58,7 @@ EOT
         $this->getContainer()->get('router')->getContext()->setScheme($input->getOption('scheme'));
         $this->getContainer()->get('router')->getContext()->setBaseUrl($input->getOption('baseurl'));
 
-        $tempFolder = sys_get_temp_dir().'/sonata_sitemap_'.md5(__DIR__);
+        $tempFolder = sys_get_temp_dir().'/sonata_sitemap_'.uniqid();
 
         $fs = new Filesystem();
 
